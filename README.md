@@ -6,7 +6,7 @@ This Terraform module creates an AWS Lambda function that automates the process 
 
 ```hcl
 module "pr_automation" {
-  source = "path-to-module"
+  source = "github.com/ukmshi/terraform-codecommit-featureflow-pr-helper"
 
   repository_names = ["repo1", "repo2"]
   staging_branch   = "staging"
